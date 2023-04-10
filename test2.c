@@ -53,7 +53,7 @@
 //	return 0;
 //}
 
-
+//
 
 int binary_search(int a[], int k, int s)
 {
