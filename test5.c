@@ -1,6 +1,6 @@
 #define _CRT_SECURE_NO_WARNINGS 1
 
-
+#include<stdio.h>
 
 //int main()
 //{
@@ -21,4 +21,15 @@
 //	//int c=a+b*7//优先级决定顺序
 //	int c = a + b + 7;//
 //}
-
+//int fun()
+//{
+//	static int count = 1;
+//	return ++count;
+//}
+//int main()
+//{
+//	int answer;
+//	answer = fun() - fun() * fun();
+//	printf("%d\n", answer);
+//	return 0;
+//}
