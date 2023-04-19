@@ -13,23 +13,23 @@
 //
 //}
 
-操作符优先级
-int main()
-{
-	int a = 4;
-	int b = 5;
-	//int c=a+b*7//优先级决定顺序
-	int c = a + b + 7;//
-}
-int fun()
-{
-	static int count = 1;
-	return ++count;
-}
-int main()
-{
-	int answer;
-	answer = fun() - fun() * fun();
-	printf("%d\n", answer);
-	return 0;
-}
+//操作符优先级
+//int main()
+//{
+//	int a = 4;
+//	int b = 5;
+//	//int c=a+b*7//优先级决定顺序
+//	int c = a + b + 7;//
+//}
+//int fun()
+//{
+//	static int count = 1;
+//	return ++count;
+//}
+//int main()
+//{
+//	int answer;
+//	answer = fun() - fun() * fun();
+//	printf("%d\n", answer);
+//	return 0;
+//}
